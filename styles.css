@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width: 100%;
+}
+
+.container {
+   flex-grow: .3;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+      0 3px 6px rgba(0, 0, 0, 0.23);
+   padding: 1rem;
+}
+
+#myInput {
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   display: block;
+   width: 80%;
+   background-color: rgb(255, 255, 255);
+   border-radius: 4px;
+   border: none;
+   outline: none;
+   color: rgb(175, 175, 175);
+   padding: 10px 15px;
+   margin-bottom: 1rem;
+   font-size: 1.2rem;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16),
+      0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.lista {
+   list-style: none;
+}
+
+.lista-item {
+   display: block;
+   width: 100%;
+   border: 1px solid #ccc;
+   background-color: #fff;
+   margin-bottom: .3rem;
+   border-radius: 10px;
+}
+
+.lista-item__link {
+   display: inline-block;
+   width: 100%;
+   text-decoration: none;
+   font-size: 1.3rem;
+   padding: 10px;
+   color: black;
+}
